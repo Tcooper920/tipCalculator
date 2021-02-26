@@ -1,7 +1,13 @@
 import React from 'react';
+import './Dropdown.css';
 
 function DropdownMenu(props) {
-  const tipDropdownOptions = [{
+  const tipDropdownOptions = [
+     {
+      value: 0,
+      label: "0%"
+    },
+    {
       value: 15,
       label: "15%"
     },
@@ -16,6 +22,14 @@ function DropdownMenu(props) {
     {
       value: 30,
       label: "30%"
+    },
+    {
+      value: 35,
+      label: "35%"
+    },
+    {
+      value: 40,
+      label: "40%"
     },
   ];
 
